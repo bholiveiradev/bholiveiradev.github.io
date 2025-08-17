@@ -8,17 +8,17 @@ You've stumbled upon my coding haven, and I'm thrilled to have you here. Feel fr
 
 Let's embark on a tech journey together! Here are some of the tools and technologies I love to work with:
 
-- **PHP 💻**
-- **Laravel 🚀**
-- **CodeIgniter 🔄**
-- **Node.js 🌐**
-- **Express 🚂**
-- **React ⚛️**
-- **React Native 📱**
-- **Vue.js 🌿**
-- **Redis 🔄**
-- **Linux 🐧**
-- **AWS ☁️**
+-   **PHP 💻**
+-   **Laravel 🚀**
+-   **CodeIgniter 🔄**
+-   **Node.js 🌐**
+-   **Express 🚂**
+-   **React ⚛️**
+-   **React Native 📱**
+-   **Vue.js 🌿**
+-   **Redis 🔄**
+-   **Linux 🐧**
+-   **AWS ☁️**
 
 Feel the power of coding with these amazing technologies!
 
