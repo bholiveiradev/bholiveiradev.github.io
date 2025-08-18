@@ -36,6 +36,7 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             animation: slideUp 0.8s ease-out;
+            position: relative;
         }
 
         @keyframes slideUp {
@@ -318,6 +319,26 @@
             margin-top: 0.5rem;
         }
 
+        .print-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: rgba(255, 255, 255, 0.95);
+            color: #333;
+            font-weight: 600;
+            border-radius: 10rem;
+            z-index: 999;
+            padding: 8px 10px;
+            border: 1px solid #000;
+            cursor: pointer;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+            transition: all 0.3s ease;
+        }
+
+        .print-btn:hover {
+            top: 0.3rem;
+        }
+
         @media print {
             * {
                 print-color-adjust: exact !important;
@@ -519,6 +540,10 @@
             .section:nth-child(3) {
                 page-break-before: auto;
             }
+
+            .print-btn {
+                display: none;
+            }
         }
 
         @media (max-width: 768px) {
@@ -546,11 +571,20 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        @media (max-width: 460px) {
+            .print-btn span {
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <button class="print-btn" onclick="window.print();">
+            <i class="fas fa-print"></i> <span>Imprimir</span>
+        </button>
         <header>
             <h1>BRUNO OLIVEIRA</h1>
             <p class="subtitle">Full Stack PHP Developer</p>
